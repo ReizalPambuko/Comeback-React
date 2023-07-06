@@ -1,10 +1,11 @@
-import Komponent from "./Materi/Komponent";
-import ClassComponent from "./Materi/Komponent/pembahasan/ClassComponent";
+// import Komponent from "./Materi/Komponent";
+import StylingComponent from "./Materi/Styling/StylingComponent";
 
 function App() {
   return (
     <div className="App">
-      <Komponent />
+      {/* <Komponent /> */}
+      <StylingComponent />
     </div>
   );
 }

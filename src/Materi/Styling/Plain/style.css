@@ -1,0 +1,12 @@
+.btn-danger {
+  padding: 14px 35px;
+  border: 2px solid violet;
+  transition: 0.1s;
+  background: transparent;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: violet;
+}
