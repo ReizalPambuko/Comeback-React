@@ -1,11 +1,10 @@
-// import Komponent from "./Materi/Komponent";
-import StylingComponent from "./Materi/Styling/StylingComponent";
+import Rendering from "./Materi/Rendering";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
-      {/* <Komponent /> */}
-      <StylingComponent />
+      <Rendering />
     </div>
   );
 }

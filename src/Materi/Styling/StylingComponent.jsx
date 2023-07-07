@@ -1,17 +1,13 @@
 import React, { Component } from "react";
-// import PlainComponent from "./Plain/PlainComponent";
-// import ScssComponent from "./Scss/ScssComponent";
-// import Styled from "./Styled/Styled";
-import Bootstrap from "./Bootstrap/Bootstrap";
+import Reusable from "./Reusable/Reusable";
 
 export default class StylingComponent extends Component {
   render() {
     return (
       <div>
-        {/* <PlainComponent /> */}
-        {/* <ScssComponent /> */}
-        {/* <Styled /> */}
-        <Bootstrap />
+        <Reusable name="Reizal" />
+        <Reusable name="Ana" />
+        <Reusable name="Okotssu" />
       </div>
     );
   }
