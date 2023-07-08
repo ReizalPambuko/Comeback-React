@@ -1,10 +1,10 @@
-import Rendering from "./Materi/Rendering";
+import Form from "./Materi/Form";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div className="App">
-      <Rendering />
+      <Form />
     </div>
   );
 }
